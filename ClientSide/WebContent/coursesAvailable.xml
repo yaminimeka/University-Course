@@ -1,0 +1,94 @@
+<?xml version = "1.0"?>
+<!-- Created by Yamini Meka last 4 daigits of id : 2765 -->
+
+<course>
+
+	<courses>
+		<name>Cleint Side</name>
+		<instructor>Dr N Paravastu</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Monday</day>
+		<crn>1002</crn>
+	</courses>
+
+	<courses>
+		<name>Cleint Side</name>
+		<instructor>Dr N Paravastu</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Tuesday</day>
+		<crn>1003</crn>
+	</courses>
+
+	<courses>
+		<name>Legal Issues</name>
+		<instructor>Dr. M. Kamal</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Wednesday</day>
+		<crn>1004</crn>
+	</courses>
+
+	<courses>
+		<name>Legal Issues</name>
+		<instructor>Dr. M. Kamal</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Thursday</day>
+		<crn>1005</crn>
+
+	</courses>
+
+	<courses>
+
+		<name>Project Management</name>
+		<instructor>Dr. Henson</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Friday</day>
+		<crn>1006</crn>
+
+	</courses>
+
+	<courses>
+
+		<name>Project Management</name>
+		<instructor>Dr. Henson</instructor>
+		<timing>9 A.M to 12 P.M </timing>
+		<day>Saturday</day>
+		<crn>1007</crn>
+
+	</courses>
+
+	<courses>
+		<name>Dot Net</name>
+		<instructor>Dr. Faja</instructor>
+		<timing>1 P.M. to 4 P.M</timing>
+		<day>Monday</day>
+		<crn>1008</crn>
+	</courses>
+
+	<courses>
+		<name>Dot Net</name>
+		<instructor>Dr. Faja</instructor>
+		<timing>1 P.M. to 4 P.M</timing>
+		<day>Tuesday</day>
+		<crn>1009</crn>
+
+	</courses>
+
+	<courses>
+
+		<name>Data Comm</name>
+		<instructor>Dr. Kesh</instructor>
+		<timing>6 P.M. to 9 P.M</timing>
+		<day>Friday</day>
+		<crn>1000</crn>
+
+	</courses>
+
+	<courses>
+		<name>Data Comm</name>
+		<instructor>Dr. Kesh</instructor>
+		<timing>6 P.M. to 9 P.M</timing>
+		<day>Saturday</day>
+		<crn>1001</crn>
+	</courses>
+
+</course>

@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<title>Payment page</title>
+		<link REL="StyleSheet" TYPE="text/css" HREF="/BookStore/css/stylesheet.css">
+		
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<h2 style="text-align:center">Online Book Store</h2>
+			</div>
+			<div id="content" style="margin-left:30%">
+			<br/>
+				<div class="payment">
+				<table>
+					<tr>
+					<td>Select Card Type  </td>
+					<td>
+						<select>
+							<option>Discover Card</option>
+							<option>Master Card</option>
+							<option>Visa Card</option>
+							<option>American Express</option>
+						</select>
+					</td>
+					</tr>
+					
+					<tr>
+						<td>Card Number  </td>
+						<td><input type="text" id="cardNumber"/>
+					</tr>
+					<tr>
+						<td>Card Holder Name    </td>
+						<td><input type="text" id="cardHolderName"/>
+					</tr>
+					<tr>
+						<td>Security Code  </td>io
+						<td><input type="text" id="cvv"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" style="text-align:center"><input type="button" class="btn btn-primary" id="commit" value="Make Payment"/></td>
+					</tr>
+				</table>
+				</div>
+				<div class="confirmation" style="display:none">
+					<p>Payment processed Successfully..!!</p>
+					<input type="button" class="btn btn-primary" id="btnHome" value="Home" onclick="location.href = 'index.html';"/>
+				</div>
+			
+			<!--  </div>
+			<div id="footer" style="background-color:#FAAC58">
+
+			</div>-->
+		</div>
+		<script>
+			$(document).ready(function(){
+				$("#commit").click(function(){
+					$(".payment").hide();
+					$(".confirmation").show();
+				});
+			});
+		</script>
+	</body>
+	
+</html>
